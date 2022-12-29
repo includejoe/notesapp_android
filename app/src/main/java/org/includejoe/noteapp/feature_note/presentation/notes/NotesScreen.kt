@@ -90,7 +90,6 @@ fun NotesScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clickable {
-                                println("clicked")
                                 navController.navigate(
                                     Screen.AddEditNoteScreen.route +
                                             "?noteId=${note.id}&noteColor=${note.color}"
